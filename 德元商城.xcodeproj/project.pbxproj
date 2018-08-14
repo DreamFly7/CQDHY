@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		105F2D90BFB9891950EC51FF /* libPods-德元商城.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A046730B49754CBD35A6B0 /* libPods-德元商城.a */; };
 		BB7B428C2121628700DAAC40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7B428B2121628700DAAC40 /* AppDelegate.m */; };
 		BB7B428F2121628700DAAC40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7B428E2121628700DAAC40 /* ViewController.m */; };
 		BB7B42922121628700DAAC40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7B42902121628700DAAC40 /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51A046730B49754CBD35A6B0 /* libPods-德元商城.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-德元商城.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA0BC436F2B3E01C1E227EB /* Pods-德元商城.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-德元商城.release.xcconfig"; path = "Pods/Target Support Files/Pods-德元商城/Pods-德元商城.release.xcconfig"; sourceTree = "<group>"; };
+		8E96E4A58C7B915994D65DD1 /* Pods-德元商城.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-德元商城.debug.xcconfig"; path = "Pods/Target Support Files/Pods-德元商城/Pods-德元商城.debug.xcconfig"; sourceTree = "<group>"; };
 		BB7B42872121628700DAAC40 /* 德元商城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "德元商城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7B428A2121628700DAAC40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB7B428B2121628700DAAC40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105F2D90BFB9891950EC51FF /* libPods-德元商城.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8211305F2F181B0FE00B40B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E96E4A58C7B915994D65DD1 /* Pods-德元商城.debug.xcconfig */,
+				7BA0BC436F2B3E01C1E227EB /* Pods-德元商城.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB7B427E2121628700DAAC40 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				BB7B42A22121628A00DAAC40 /* 德元商城Tests */,
 				BB7B42AD2121628A00DAAC40 /* 德元商城UITests */,
 				BB7B42882121628700DAAC40 /* Products */,
+				8211305F2F181B0FE00B40B6 /* Pods */,
+				D408C1FF2C420E787C36C081 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +148,14 @@
 			path = "德元商城UITests";
 			sourceTree = "<group>";
 		};
+		D408C1FF2C420E787C36C081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A046730B49754CBD35A6B0 /* libPods-德元商城.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB7B42B32121628A00DAAC40 /* Build configuration list for PBXNativeTarget "德元商城" */;
 			buildPhases = (
+				F06BC5D3C0B9E9A712CDCE0B /* [CP] Check Pods Manifest.lock */,
 				BB7B42832121628700DAAC40 /* Sources */,
 				BB7B42842121628700DAAC40 /* Frameworks */,
 				BB7B42852121628700DAAC40 /* Resources */,
@@ -195,7 +220,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "胡隆海";
+				ORGANIZATIONNAME = "重庆德弘缘电子商务有限公司";
 				TargetAttributes = {
 					BB7B42862121628700DAAC40 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -256,6 +281,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F06BC5D3C0B9E9A712CDCE0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-德元商城-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB7B42832121628700DAAC40 /* Sources */ = {
@@ -431,6 +477,7 @@
 		};
 		BB7B42B42121628A00DAAC40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E96E4A58C7B915994D65DD1 /* Pods-德元商城.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,7 +487,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-------------.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deyuantang.shop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +495,7 @@
 		};
 		BB7B42B52121628A00DAAC40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA0BC436F2B3E01C1E227EB /* Pods-德元商城.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,7 +505,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-------------.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deyuantang.shop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

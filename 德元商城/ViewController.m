@@ -3,7 +3,7 @@
 //  德元商城
 //
 //  Created by 胡隆海 on 2018/8/13.
-//  Copyright © 2018年 胡隆海. All rights reserved.
+//  Copyright © 2018年 重庆德弘缘电子商务有限公司. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -16,14 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
