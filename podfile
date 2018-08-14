@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+target '德元商城' do
+
+pod 'AFNetworking'
+
+end
