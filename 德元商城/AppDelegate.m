@@ -34,6 +34,9 @@
     //添加当前类对象为一个观察者，接收来自用户中心切换版本时候的通知
     [center addObserver:self selector:@selector(createMainTabBarViewController) name:@"loginSuccess" object:nil];
     [center addObserver:self selector:@selector(createLoginView) name:@"exitSuccess" object:nil];
+    
+    NSLog(@"测试一下");
+    
     return YES;
 }
 
