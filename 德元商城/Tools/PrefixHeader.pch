@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  趣批油
+//
+//  Created by 胡隆海 on 2017/5/23.
+//  Copyright © 2017年 胡隆海. All rights reserved.
+//
+
+//#ifndef PrefixHeader_pch
+//#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#endif /* PrefixHeader_pch */
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define hScreenWidth [UIScreen mainScreen].bounds.size.width
+#define hScreenHeight [UIScreen mainScreen].bounds.size.height
+#define hKeyWindow [UIApplication sharedApplication].keyWindow
+#define hUserDefaults [NSUserDefaults standardUserDefaults]
+
+
+#import "Imports.h"
+
+#endif
